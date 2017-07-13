@@ -6,7 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="angular41\" />
+    <Compile Remove="angular41\**" />
+    <Content Remove="angular41\**" />
+    <EmbeddedResource Remove="angular41\**" />
+    <None Remove="angular41\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>

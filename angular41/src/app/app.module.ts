@@ -10,7 +10,7 @@ import { HttpModule } from '@angular/http';
     AppComponent
   ],
   imports: [
-      BrowserModule,
+      BrowserModule.withServerTransition({ appId: 'angular41' }),
       FormsModule,
       HttpModule
   ],
